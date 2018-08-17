@@ -12,16 +12,18 @@
 </head>
 <body>
     <h1>Welcome to Airport Waka!</h1>
-    <div id='map' style='width: 400px; height: 300px;'></div>
+    <div id='map'></div>
 
 
     <script src='https://api.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1Ijoia29kaWxpIiwiYSI6ImNqa3hpc2VmYTA4Y2wzcXIwMTdlMm56c3gifQ.i6-tSoiW8CkIi9AOs-IJZA';
+        mapboxgl.accessToken = '@Model.MapboxAccessToken';
+
         var map = new mapboxgl.Map({
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v10'
+            style: 'mapbox://styles/mapbox/light-v9'
         });
+
     </script>
 
 </body>
