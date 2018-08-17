@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportWaka", "AirportWaka\AirportWaka.csproj", "{BA7891AE-EF5B-4310-9696-F09D589D7F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA7891AE-EF5B-4310-9696-F09D589D7F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7891AE-EF5B-4310-9696-F09D589D7F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7891AE-EF5B-4310-9696-F09D589D7F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7891AE-EF5B-4310-9696-F09D589D7F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B856E69C-15A4-49BF-ABC1-AEA80EB6271F}
+	EndGlobalSection
+EndGlobal
